@@ -71,6 +71,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="13dp"
+                android:fontFamily="@font/lobster_two"
                 android:text="@string/gdgs_are"
                 android:textColor="#FF555555"
                 android:textSize="18sp"
