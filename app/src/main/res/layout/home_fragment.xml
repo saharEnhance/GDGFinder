@@ -50,7 +50,7 @@
 
             <TextView
                 android:id="@+id/title"
-                android:textAppearance="@style/TextAppearance.Title"
+                android:textAppearance="?attr/textAppearanceHeadline5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -73,14 +73,13 @@
 
             <TextView
                 android:id="@+id/subtitle"
-                android:textAppearance="@style/TextAppearance.Subtitle"
+                android:textAppearance="?attr/textAppearanceHeadline6"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="13dp"
                 android:fontFamily="@font/lobster_two"
                 android:text="@string/gdgs_are"
                 android:textColor="#FF555555"
-                android:textSize="18sp"
                 app:layout_constraintEnd_toStartOf="@id/end_guideline"
                 app:layout_constraintStart_toEndOf="@id/start_guideline"
                 app:layout_constraintTop_toBottomOf="@+id/intro_text" />
